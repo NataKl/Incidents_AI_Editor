@@ -1,0 +1,84 @@
+{"service": "api-gateway", "level": "info", "message": "Запуск сервиса api-gateway — старт приложения версия 1.2.0", "ts": null}
+{"service": "api-gateway", "level": "info", "message": "Проверка здоровья эндпоинта /health завершилась успешно", "ts": null}
+{"service": "api-gateway", "level": "warning", "message": "Медленный ответ upstream за последний час: p95 около 850ms", "ts": null}
+{"service": "api-gateway", "level": "info", "message": "Фоновая синхронизация кеша между нодами запущена", "ts": null}
+{"service": "api-gateway", "level": "warning", "message": "Проверка здоровья: задержка ответа БД превышает допустимый порог", "ts": null}
+{"service": "api-gateway", "level": "info", "message": "Лёгкая деградация: успешное завершение планового рестарта воркера", "ts": null}
+{"service": "api-gateway", "level": "info", "message": "Подключение к очереди сообщений активно; потребление в норме", "ts": null}
+{"service": "api-gateway", "level": "warning", "message": "Рост времени ответа внешнего партнёрского API, мониторинг продолжается", "ts": null}
+{"service": "api-gateway", "level": "info", "message": "Запуск", "ts": null}
+{"service": "api-gateway", "level": "warning", "message": "ок", "ts": null}
+{"service": "api-gateway", "level": "error", "message": "DB locked — не удалось получить блокировку на запись при пиковой нагрузке", "ts": null}
+{"service": "api-gateway", "level": "error", "message": "Timeout to external service: payment-gateway истёк интервал ожидания 30 секунд", "ts": null}
+{"service": "api-gateway", "level": "error", "message": "ValueError in parser: invalid literal for int() с base 10: 'xyz' при разборе payload", "ts": null}
+{"service": "api-gateway", "level": "error", "message": "Подключение к Redis отказало: Connection refused после перезапуска кластера", "ts": null}
+{"service": "api-gateway", "level": "error", "message": "Сбой авторизации JWT: malformed token в заголовке Authorization", "ts": null}
+{"service": "api-gateway", "level": "error", "message": "Out of disk space на разделе /var со свободным местом ниже порога безопасности", "ts": null}
+{"service": "api-gateway", "level": "error", "message": "Deadlock detected в транзакции при одновременном обновлении двух связанных таблиц", "ts": null}
+{"service": "api-gateway", "level": "warning", "message": "", "ts": null}
+{"service": "api-gateway", "level": "critical", "message": "тест: некорректный уровень (не вставляется в БД)", "ts": null}
+{"service": "", "level": "info", "message": "тест: пустой service (валидируется API; в БД service может быть пустой строкой)", "ts": null}
+{"service": "billing", "level": "info", "message": "Списание по подписке #1042 подтверждено", "ts": null}
+{"service": "billing", "level": "warning", "message": "Повторная попытка эквайринга через 15 мин", "ts": null}
+{"service": "auth", "level": "info", "message": "OAuth refresh token ротирован успешно", "ts": null}
+{"service": "auth", "level": "error", "message": "LDAP bind failed: invalid credentials for svc account", "ts": null}
+{"service": "nats-bridge", "level": "info", "message": "Статус: успешно Фикстура Q1: январь #1 — nats-bridge", "ts": null, "created_at": "2026-01-02T16:00:00+00:00"}
+{"service": "order-svc", "level": "warning", "message": "Статус: успешно Фикстура Q1: январь #2 — order-svc", "ts": null, "created_at": "2026-01-02T20:00:00+00:00"}
+{"service": "search-index", "level": "error", "message": "Статус: Ошибка Фикстура Q1: январь #3 — search-index", "ts": null, "created_at": "2026-01-07T18:14:22+00:00"}
+{"service": "payments-rpc", "level": "info", "message": "Статус: успешно Фикстура Q1: январь #4 — payments-rpc", "ts": null, "created_at": "2026-01-07T20:00:00+00:00"}
+{"service": "cdn-edge", "level": "warning", "message": "Статус: успешно Фикстура Q1: январь #5 — cdn-edge", "ts": null, "created_at": "2026-01-12T08:28:44+00:00"}
+{"service": "webhook-ingest", "level": "error", "message": "Статус: Ошибка Фикстура Q1: январь #6 — webhook-ingest", "ts": null, "created_at": "2026-01-12T20:00:00+00:00"}
+{"service": "report-jobs", "level": "info", "message": "Статус: успешно Фикстура Q1: январь #7 — report-jobs", "ts": null, "created_at": "2026-01-19T10:42:06+00:00"}
+{"service": "ml-scoring", "level": "warning", "message": "Статус: успешно Фикстура Q1: январь #8 — ml-scoring", "ts": null, "created_at": "2026-01-19T20:00:00+00:00"}
+{"service": "kafka-consumer", "level": "error", "message": "Статус: Ошибка Фикстура Q1: январь #9 — kafka-consumer", "ts": null, "created_at": "2026-01-26T12:56:28+00:00"}
+{"service": "geo-service", "level": "info", "message": "Статус: успешно Фикстура Q1: январь #10 — geo-service", "ts": null, "created_at": "2026-01-26T20:00:00+00:00"}
+{"service": "recommend-api", "level": "warning", "message": "Статус: успешно Фикстура Q1: февраль #1 — recommend-api", "ts": null, "created_at": "2026-02-01T12:00:00+00:00"}
+{"service": "audit-logger", "level": "error", "message": "Статус: Ошибка Фикстура Q1: февраль #2 — audit-logger", "ts": null, "created_at": "2026-02-01T20:00:00+00:00"}
+{"service": "feature-flags", "level": "info", "message": "Статус: успешно Фикстура Q1: февраль #3 — feature-flags", "ts": null, "created_at": "2026-02-03T14:06:10+00:00"}
+{"service": "rate-limiter", "level": "warning", "message": "Статус: успешно Фикстура Q1: февраль #4 — rate-limiter", "ts": null, "created_at": "2026-02-03T20:00:00+00:00"}
+{"service": "session-store", "level": "error", "message": "Статус: Ошибка Фикстура Q1: февраль #5 — session-store", "ts": null, "created_at": "2026-02-05T16:12:20+00:00"}
+{"service": "graphql-router", "level": "info", "message": "Статус: успешно Фикстура Q1: февраль #6 — graphql-router", "ts": null, "created_at": "2026-02-05T20:00:00+00:00"}
+{"service": "email-dispatcher", "level": "warning", "message": "Статус: успешно Фикстура Q1: февраль #7 — email-dispatcher", "ts": null, "created_at": "2026-02-07T18:18:30+00:00"}
+{"service": "ledger-sync", "level": "error", "message": "Статус: Ошибка Фикстура Q1: февраль #8 — ledger-sync", "ts": null, "created_at": "2026-02-07T20:00:00+00:00"}
+{"service": "metrics-agent", "level": "info", "message": "Статус: успешно Фикстура Q1: февраль #9 — metrics-agent", "ts": null, "created_at": "2026-02-09T20:24:40+00:00"}
+{"service": "nats-bridge", "level": "warning", "message": "Статус: успешно Фикстура Q1: февраль #10 — nats-bridge", "ts": null, "created_at": "2026-02-09T20:00:00+00:00"}
+{"service": "order-svc", "level": "error", "message": "Статус: Ошибка Фикстура Q1: февраль #11 — order-svc", "ts": null, "created_at": "2026-02-11T22:30:50+00:00"}
+{"service": "search-index", "level": "info", "message": "Статус: успешно Фикстура Q1: февраль #12 — search-index", "ts": null, "created_at": "2026-02-11T20:00:00+00:00"}
+{"service": "payments-rpc", "level": "warning", "message": "Статус: успешно Фикстура Q1: февраль #13 — payments-rpc", "ts": null, "created_at": "2026-02-13T06:36:00+00:00"}
+{"service": "cdn-edge", "level": "error", "message": "Статус: Ошибка Фикстура Q1: февраль #14 — cdn-edge", "ts": null, "created_at": "2026-02-13T20:00:00+00:00"}
+{"service": "webhook-ingest", "level": "info", "message": "Статус: успешно Фикстура Q1: февраль #15 — webhook-ingest", "ts": null, "created_at": "2026-02-15T08:42:10+00:00"}
+{"service": "report-jobs", "level": "warning", "message": "Статус: успешно Фикстура Q1: февраль #16 — report-jobs", "ts": null, "created_at": "2026-02-15T20:00:00+00:00"}
+{"service": "ml-scoring", "level": "error", "message": "Статус: Ошибка Фикстура Q1: февраль #17 — ml-scoring", "ts": null, "created_at": "2026-02-17T10:48:20+00:00"}
+{"service": "kafka-consumer", "level": "info", "message": "Статус: успешно Фикстура Q1: февраль #18 — kafka-consumer", "ts": null, "created_at": "2026-02-17T20:00:00+00:00"}
+{"service": "geo-service", "level": "warning", "message": "Статус: успешно Фикстура Q1: февраль #19 — geo-service", "ts": null, "created_at": "2026-02-19T12:54:30+00:00"}
+{"service": "recommend-api", "level": "error", "message": "Статус: Ошибка Фикстура Q1: февраль #20 — recommend-api", "ts": null, "created_at": "2026-02-19T20:00:00+00:00"}
+{"service": "order-svc", "level": "info", "message": "Статус: успешно Фикстура Q1: март #1 — order-svc", "ts": null, "created_at": "2026-03-01T06:00:00+00:00"}
+{"service": "search-index", "level": "warning", "message": "Статус: успешно Фикстура Q1: март #2 — search-index", "ts": null, "created_at": "2026-03-01T20:00:00+00:00"}
+{"service": "payments-rpc", "level": "error", "message": "Статус: Ошибка Фикстура Q1: март #3 — payments-rpc", "ts": null, "created_at": "2026-03-03T08:04:06+00:00"}
+{"service": "cdn-edge", "level": "info", "message": "Статус: успешно Фикстура Q1: март #4 — cdn-edge", "ts": null, "created_at": "2026-03-03T20:00:00+00:00"}
+{"service": "webhook-ingest", "level": "warning", "message": "Статус: успешно Фикстура Q1: март #5 — webhook-ingest", "ts": null, "created_at": "2026-03-05T10:08:12+00:00"}
+{"service": "report-jobs", "level": "error", "message": "Статус: Ошибка Фикстура Q1: март #6 — report-jobs", "ts": null, "created_at": "2026-03-05T20:00:00+00:00"}
+{"service": "ml-scoring", "level": "info", "message": "Статус: успешно Фикстура Q1: март #7 — ml-scoring", "ts": null, "created_at": "2026-03-07T12:12:18+00:00"}
+{"service": "kafka-consumer", "level": "warning", "message": "Статус: успешно Фикстура Q1: март #8 — kafka-consumer", "ts": null, "created_at": "2026-03-07T20:00:00+00:00"}
+{"service": "geo-service", "level": "error", "message": "Статус: Ошибка Фикстура Q1: март #9 — geo-service", "ts": null, "created_at": "2026-03-09T14:16:24+00:00"}
+{"service": "recommend-api", "level": "info", "message": "Статус: успешно Фикстура Q1: март #10 — recommend-api", "ts": null, "created_at": "2026-03-09T20:00:00+00:00"}
+{"service": "audit-logger", "level": "warning", "message": "Статус: успешно Фикстура Q1: март #11 — audit-logger", "ts": null, "created_at": "2026-03-11T16:20:30+00:00"}
+{"service": "feature-flags", "level": "error", "message": "Статус: Ошибка Фикстура Q1: март #12 — feature-flags", "ts": null, "created_at": "2026-03-11T20:00:00+00:00"}
+{"service": "rate-limiter", "level": "info", "message": "Статус: успешно Фикстура Q1: март #13 — rate-limiter", "ts": null, "created_at": "2026-03-13T18:24:36+00:00"}
+{"service": "session-store", "level": "warning", "message": "Статус: успешно Фикстура Q1: март #14 — session-store", "ts": null, "created_at": "2026-03-13T20:00:00+00:00"}
+{"service": "graphql-router", "level": "error", "message": "Статус: Ошибка Фикстура Q1: март #15 — graphql-router", "ts": null, "created_at": "2026-03-15T20:28:42+00:00"}
+{"service": "email-dispatcher", "level": "info", "message": "Статус: успешно Фикстура Q1: март #16 — email-dispatcher", "ts": null, "created_at": "2026-03-15T20:00:00+00:00"}
+{"service": "ledger-sync", "level": "warning", "message": "Статус: успешно Фикстура Q1: март #17 — ledger-sync", "ts": null, "created_at": "2026-03-17T22:32:48+00:00"}
+{"service": "metrics-agent", "level": "error", "message": "Статус: Ошибка Фикстура Q1: март #18 — metrics-agent", "ts": null, "created_at": "2026-03-17T20:00:00+00:00"}
+{"service": "nats-bridge", "level": "info", "message": "Статус: успешно Фикстура Q1: март #19 — nats-bridge", "ts": null, "created_at": "2026-03-19T06:36:54+00:00"}
+{"service": "order-svc", "level": "warning", "message": "Статус: успешно Фикстура Q1: март #20 — order-svc", "ts": null, "created_at": "2026-03-19T20:00:00+00:00"}
+{"service": "search-index", "level": "error", "message": "Статус: Ошибка Фикстура Q1: март #21 — search-index", "ts": null, "created_at": "2026-03-21T08:40:00+00:00"}
+{"service": "payments-rpc", "level": "info", "message": "Статус: успешно Фикстура Q1: март #22 — payments-rpc", "ts": null, "created_at": "2026-03-21T20:00:00+00:00"}
+{"service": "cdn-edge", "level": "warning", "message": "Статус: успешно Фикстура Q1: март #23 — cdn-edge", "ts": null, "created_at": "2026-03-23T10:44:06+00:00"}
+{"service": "webhook-ingest", "level": "error", "message": "Статус: Ошибка Фикстура Q1: март #24 — webhook-ingest", "ts": null, "created_at": "2026-03-23T20:00:00+00:00"}
+{"service": "report-jobs", "level": "info", "message": "Статус: успешно Фикстура Q1: март #25 — report-jobs", "ts": null, "created_at": "2026-03-25T12:48:12+00:00"}
+{"service": "ml-scoring", "level": "warning", "message": "Статус: успешно Фикстура Q1: март #26 — ml-scoring", "ts": null, "created_at": "2026-03-25T20:00:00+00:00"}
+{"service": "kafka-consumer", "level": "error", "message": "Статус: Ошибка Фикстура Q1: март #27 — kafka-consumer", "ts": null, "created_at": "2026-03-27T14:52:18+00:00"}
+{"service": "geo-service", "level": "info", "message": "Статус: успешно Фикстура Q1: март #28 — geo-service", "ts": null, "created_at": "2026-03-27T20:00:00+00:00"}
+{"service": "recommend-api", "level": "warning", "message": "Статус: успешно Фикстура Q1: март #29 — recommend-api", "ts": null, "created_at": "2026-03-29T16:56:24+00:00"}
+{"service": "audit-logger", "level": "error", "message": "Статус: Ошибка Фикстура Q1: март #30 — audit-logger", "ts": null, "created_at": "2026-03-29T20:00:00+00:00"}
